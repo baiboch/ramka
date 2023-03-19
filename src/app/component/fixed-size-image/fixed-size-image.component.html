@@ -1,0 +1,5 @@
+<input type="file" (change)="onFileSelected($event)" accept="image/*" />
+
+<div class="image-container" [ngStyle]="{ 'width.px': width, 'height.px': height }">
+  <canvas #myCanvas></canvas>
+</div>
